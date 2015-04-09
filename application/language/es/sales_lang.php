@@ -1,8 +1,10 @@
 <?php 
 
+$lang["sales_add_item"] = "Add";
 $lang["sales_add_payment"] = "Agregar Pago";
 $lang["sales_amount_due"] = "Debe";
 $lang["sales_amount_tendered"] = "Cantidad Recibida";
+$lang["sales_ask_choose_one"] = "Did you mean one of the following?";
 $lang["sales_basic_information"] = "información sobre las entradas";
 $lang["sales_cancel_sale"] = "Cancelar Venta";
 $lang["sales_cannot_be_deleted"] = "";

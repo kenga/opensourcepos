@@ -1,8 +1,10 @@
 <?php 
 
+$lang["sales_add_item"] = "Add";
 $lang["sales_add_payment"] = "TERIMA";
 $lang["sales_amount_due"] = "Kembalian Uang";
 $lang["sales_amount_tendered"] = "Nilai Pembayaran";
+$lang["sales_ask_choose_one"] = "Did you mean one of the following?";
 $lang["sales_basic_information"] = "Sale information";
 $lang["sales_cancel_sale"] = "Batal Jual";
 $lang["sales_cannot_be_deleted"] = "";

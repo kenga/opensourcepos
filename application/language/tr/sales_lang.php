@@ -1,8 +1,10 @@
 <?php 
 
+$lang["sales_add_item"] = "Add";
 $lang["sales_add_payment"] = "Ödeme Ekle";
 $lang["sales_amount_due"] = "Kalan Ödeme";
 $lang["sales_amount_tendered"] = "Ödenen Tutar";
+$lang["sales_ask_choose_one"] = "Did you mean one of the following?";
 $lang["sales_basic_information"] = "Satış bilgisi";
 $lang["sales_cancel_sale"] = "İptal Et";
 $lang["sales_cannot_be_deleted"] = "";

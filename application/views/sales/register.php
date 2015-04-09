@@ -15,6 +15,23 @@ if (isset($success))
 {
 	echo "<div class='success_message'>".$success."</div>";
 }
+if (isset($chooseItemTable))
+{
+	echo form_open("sales/add",array('id'=>'choose_add_item_form'));
+	echo '<div id="chooseItemTableHolder" style="background:lightyellow; overflow:auto; margin-bottom:10px" hidden>';
+    echo  '<div>';
+    echo   '<div style="float:right"><a href="javascript:(function() { $(\'#chooseItemTableHolder\').slideUp(\'fast\'); })();">[X]</a></div>';
+	echo   '<div>'.$this->lang->line('sales_ask_choose_one').'</div>';
+    echo  '</div>';
+    echo  '<div>';
+    echo   '<div style="width:98%; float:right; margin:5px 0px 10px 0px; border:grey 1px solid; height:20em; overflow-y:scroll;">';
+    echo     $chooseItemTable;
+    echo   '</div>';
+    echo   '<div></div>';
+    echo  '</div>';
+	echo '</div>';
+	echo '</form>';
+}
 ?>
 <div id="register_wrapper">
 <?php echo form_open("sales/change_mode",array('id'=>'mode_form')); ?>
@@ -522,7 +539,32 @@ $(document).ready(function()
 	   $('#add_payment_form').submit();
     });
 
-	$("#payment_types").change(check_payment_type_gifcard).ready(check_payment_type_gifcard)
+    $("#payment_types").change(check_payment_type_gifcard).ready(check_payment_type_gifcard);
+
+    $("#sortable_table").tablesorter({
+            sortList: [[6,2]],
+            headers:
+            {
+                0: { sorter: false}
+            }
+    });
+    var enable_row_dblclk = function() {
+        rows=$("#sortable_table tbody tr");
+        rows.hover(
+            function row_in()
+            {
+                $(this).find("td").addClass('over').css("backgroundColor","");
+            },
+            function row_out()
+            {
+                $(this).find("td").removeClass('over');
+            }
+        );
+        // todo: handle double click to add
+    }
+    enable_row_dblclk();
+    $('#chooseItemTableHolder').slideDown('slow');
+
 });
 
 function post_item_form_submit(response)

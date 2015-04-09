@@ -1,8 +1,10 @@
 <?php 
 
+$lang["sales_add_item"] = "加入";
 $lang["sales_add_payment"] = "新增付款";
 $lang["sales_amount_due"] = "付款到期日";
 $lang["sales_amount_tendered"] = "已收帳款";
+$lang["sales_ask_choose_one"] = "您是指下列其中一項嗎？";
 $lang["sales_basic_information"] = "銷售資料";
 $lang["sales_cancel_sale"] = "取消銷售";
 $lang["sales_cannot_be_deleted"] = "出售不能刪除";
@@ -91,3 +93,4 @@ $lang["sales_unsuccessfully_deleted"] = "銷售資料刪除失敗";
 $lang["sales_unsuccessfully_updated"] = "銷售資料更新失敗";
 $lang["sales_unsuspend"] = "取消暫停銷售";
 $lang["sales_unsuspend_and_delete"] = "取消暫停銷售並刪除";
+$lang["sales_ask_choose_one"] = "您是指下列其中一項？";

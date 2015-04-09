@@ -1,7 +1,9 @@
 label,nl-BE,es,en,fr,zh,ru,th,tr,id
+sales_add_item,Add,Add,Add,Add,加入,Add,Add,Add,Add
 sales_add_payment,Betaal,Agregar Pago,Add Payment,Ajouter Paiement,新增付款,Добавить оплаты,เพิ่มบิล,Ödeme Ekle,TERIMA
 sales_amount_due,Te betalen,Debe,Amount Due,Somme Due,付款到期日,Amount Due,,Kalan Ödeme,Kembalian Uang
 sales_amount_tendered,Ontvangen bedrag,Cantidad Recibida,Amount Tendered,Somme,已收帳款,предложенная сумма,จำนวนประมูล,Ödenen Tutar,Nilai Pembayaran
+sales_ask_choose_one,Did you mean one of the following?,Did you mean one of the following?,Did you mean one of the following?,Did you mean one of the following?,您是指下列其中一項嗎？,Did you mean one of the following?,Did you mean one of the following?,Did you mean one of the following?,Did you mean one of the following?
 sales_basic_information,Ticket informatie,información sobre las entradas,Sale information,Information de Vente,銷售資料,информацию о билетах,,Satış bilgisi,Sale information
 sales_cancel_sale,Annuleer,Cancelar Venta,Cancel Sale,Annuler la Vente,取消銷售,Отменить продажу,ยกเลิกการขาย,İptal Et,Batal Jual
 sales_cannot_be_deleted,,,Sale(s) could not be deleted,,出售不能刪除,,,,

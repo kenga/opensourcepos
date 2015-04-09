@@ -1,8 +1,10 @@
 <?php 
 
+$lang["sales_add_item"] = "Add";
 $lang["sales_add_payment"] = "Add Payment";
 $lang["sales_amount_due"] = "Amount Due";
 $lang["sales_amount_tendered"] = "Amount Tendered";
+$lang["sales_ask_choose_one"] = "Did you mean one of the following?";
 $lang["sales_basic_information"] = "Sale information";
 $lang["sales_cancel_sale"] = "Cancel Sale";
 $lang["sales_cannot_be_deleted"] = "Sale(s) could not be deleted";
@@ -91,3 +93,4 @@ $lang["sales_unsuccessfully_deleted"] = "";
 $lang["sales_unsuccessfully_updated"] = "Sale unsuccessfully updated";
 $lang["sales_unsuspend"] = "Unsuspend";
 $lang["sales_unsuspend_and_delete"] = "";
+$lang["sales_ask_choose_one"] = "Did you mean one of the following?";

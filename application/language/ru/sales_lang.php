@@ -1,8 +1,10 @@
 <?php 
 
+$lang["sales_add_item"] = "Add";
 $lang["sales_add_payment"] = "Добавить оплаты";
 $lang["sales_amount_due"] = "Amount Due";
 $lang["sales_amount_tendered"] = "предложенная сумма";
+$lang["sales_ask_choose_one"] = "Did you mean one of the following?";
 $lang["sales_basic_information"] = "информацию о билетах";
 $lang["sales_cancel_sale"] = "Отменить продажу";
 $lang["sales_cannot_be_deleted"] = "";

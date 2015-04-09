@@ -6,6 +6,7 @@ class Sales extends Secure_area
 	{
 		parent::__construct('sales','items');
 		$this->load->library('sale_lib');
+		$this->load->helper('sale');
 	}
 
 	function index()
@@ -152,6 +153,10 @@ class Sales extends Secure_area
 		elseif(!$this->sale_lib->add_item($item_id_or_number_or_item_kit_or_receipt,$quantity,$item_location))
 		{
 			$data['error']=$this->lang->line('sales_unable_to_add_item');
+			$chooseItemTable=get_sales_items_manage_table($this->Item->search($item_id_or_number_or_item_kit_or_receipt,$item_location),$this);
+            if ($chooseItemTable != null) {
+                $data['chooseItemTable']=$chooseItemTable;
+            }
 		}
 		
 		if($this->sale_lib->out_of_stock($item_id_or_number_or_item_kit_or_receipt,$item_location))
