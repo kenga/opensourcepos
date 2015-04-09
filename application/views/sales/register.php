@@ -565,6 +565,11 @@ $(document).ready(function()
     enable_row_dblclk();
     $('#chooseItemTableHolder').slideDown('slow');
 
+<?php if (!isset($chooseItemTable)){ ?>
+    $('input#item').focus();
+<?php } ?>
+
+
 });
 
 function post_item_form_submit(response)
