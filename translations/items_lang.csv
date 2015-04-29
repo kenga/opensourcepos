@@ -1,6 +1,6 @@
 label,nl-BE,es,en,fr,zh,ru,th,tr,id
 items_add_minus,Corrigatie hoeveelheid,Inventario a agregar/substraer,Inventory to add/subtract,Ajoujer/Soustraire à l\'Inventaire,增/減庫存,Инвентарь для сложения/вычитания,เพิ่ม/ลบ จำนวนสินค้าคงคลัง,Eklenen/Çıkarılan Adet,Penyesuaian Inventori TAMBAH / KURANG (-)
-items_allow_alt_description,Aanpasbare omschrijving,Permitir Descripción Alternativa,Allow Alt Description,Autoriser Description Alt,允許ALT描述,Разрешить альтернативные описания,มีรายละเอียดเพิ่มเติม,Dip Nota izin ver,Deskripsi Alternatif dimungkinkan
+items_allow_alt_description,Aanpasbare omschrijving,Permitir Descripción Alternativa,Allow Alt Description,Autoriser Description Alt,允許更改描述,Разрешить альтернативные описания,มีรายละเอียดเพิ่มเติม,Dip Nota izin ver,Deskripsi Alternatif dimungkinkan
 items_amazon,Amazon,Amazon,Amazon,Amazon,Amazon,Amazon,Amazon,Amazon,Amazon
 items_basic_information,Productinformatie,Infomación del Artículo,Item Information,Informations sur l\'Item,產品訊息,информацию о товаре,ข้อมูลสินค้ส,Ürün Bilgisi,Informasi Item
 items_bulk_edit,Bewerk Selectie,Edición Múltiple,Bulk Edit,Édition en groupe,批次編輯,Массовое изменение,แก้ไขความจุ,Toplu Düzenleme,Ubah Massal
@@ -9,8 +9,8 @@ items_cannot_be_deleted,De geselecteerde producten konden niet worden verwijderd
 items_cannot_find_item,Er werd geen informatie gevonden omtrent product,No puedo encontrar información acerca del artículo,Cannot find any information about item,Impossible de récu[érer des informations,無法找到任何有關的產品,не могу найти любую информацию о товаре,ไม่พบข้อมูลของสินค้า,Ürün bilgisi bulunamadı,Tidak dapat menemukan informasi apapun tentang item
 items_category,Categorie,Categoría,Category,Categorie,類別,Категория,หมวดหมู่,Kategori,Kategori
 items_category_required,Categorie moet ingevuld worden,Categoría es requerido,Category is a required field,La Catégorie est requise,類別為必填欄位,Категория обязательное пробелья,หมวดหมู่สินค้าต้องกรอก,Kategori zorunlu alandır,Kategori wajib diisi
-items_change_all_to_allow_alt_desc,Aanpasb. omschrijvingen,Permitir Descripción Alternativa Para Todos, Allow Alt Desc For All, Autoriser Desc Alt Pour Tous, 充許全部ALT倒序,Разрешить альтернативные Описание для всех, Allow Alt Desc For All, Tümünde dip nota izin ver, Diijinkan Deskripsi alternatif untuk semua
-items_change_all_to_not_allow_allow_desc,Vaste omschrijvingen,Denegar Descripción Alternativa Para Todos,Not Allow Alt Desc For All,Interdire Desc Alt Pour Tous,不允許全部ALT倒序,Не разрешить альтернативные Описание для всех,Not Allow Alt Desc For All,Tümünde dip nota izin verme,Tidak Diijinkan Deskripsi alternatif untuk semua
+items_change_all_to_allow_alt_desc,Aanpasb. omschrijvingen,Permitir Descripción Alternativa Para Todos, Allow Alt Desc For All, Autoriser Desc Alt Pour Tous,允許全部更改描述,Разрешить альтернативные Описание для всех, Allow Alt Desc For All, Tümünde dip nota izin ver, Diijinkan Deskripsi alternatif untuk semua
+items_change_all_to_not_allow_allow_desc,Vaste omschrijvingen,Denegar Descripción Alternativa Para Todos,Not Allow Alt Desc For All,Interdire Desc Alt Pour Tous,不允許全部更改描描述,Не разрешить альтернативные Описание для всех,Not Allow Alt Desc For All,Tümünde dip nota izin verme,Tidak Diijinkan Deskripsi alternatif untuk semua
 items_change_all_to_serialized,Genummerd,Cambiar Todo A Serializado,Change All To Serialized,Tout Sérialiser,全部更改序號至序列化,Изменить все в сериализованную,เปลี่ยนแปลงรหัสสินค้าทั้งหมด,Tümünü seri numaralı yap,Ubah semua menggunakan nomor serial
 items_change_all_to_unserialized,Niet genummerd,Cambiar Todo A Deserializado,Change All To Unserialized,Tout désérialiser,全部更改序號至非序列化,Изменить все в несериализованную,ลบรหัสสินค้าทั้งหมด,Tümünü seri numarasız yap,Ubah semua tanpa nomor serial
 items_confirm_bulk_edit,Bent u zeker dat u de geselecteerde producten wil aanpassen?,¿Estás seguro(a) de querer editar los artículos seleccionados?,Are you sure you want to edit all the items selected?,Etes vous sûre de vouloir éditer toute la sélection?,您確定您要編輯的所有選定的產品嗎？,"Вы уверены, что хотите редактировать все товари выбраны?",แน่ใจหรือไม่ที่จะแก้ใขสินค้าทั้งหมดที่คุณเลือก?,Seçili tüm ürünleri düzenlemek istediğinize emin misiniz?,Apakah Anda yakin ingin merubah semua item yang dipilih?
@@ -32,7 +32,7 @@ items_generate_barcodes,Genereer Barcodes,Generar Códigos de Barras,Generate Ba
 items_info_provided_by,Info provided by,Info provista por,Info provided by,Infos fournies by,訊息提供者,"Информация, представленная",จัดเตรียมข้อมูลโดย,Bilgi sağlayan,Info disediakan oleh
 items_inventory,Stock,Inventario,Inventory,Inventaire,庫存,инвентаризация,สินค้าคงเหลือ,Stok,Inventori
 items_inventory_comments,Commentaar,Comentarios,Comments,Commentaires,評論,Комментарии,คำอธิบาย,Yorumlar,Keterangan
-items_is_deleted,Verwijderd,Eliminado,Deleted,Supprimé,Deleted,Deleted,ถูกลบแล้ว,Silinmiş,Item dihapus
+items_is_deleted,Verwijderd,Eliminado,Deleted,Supprimé,刪除,Deleted,ถูกลบแล้ว,Silinmiş,Item dihapus
 items_is_serialized,Optelbaar,El Artículo tiene Número de Serie,Item has Serial Number,Item a un Numéro de Série,產品有序號,Товар имеет серийный номер,สินค้ามีซีเรียลนัมเบอร์,Seri Numaralı Ürün,Item Memiliki Nomor Serial
 items_item,Product,Artículo,Item,Item,產品,Товар,สินค้า,Ürün,Item
 items_item_number,UPC/EAN/ISBN,UPC/EAN/ISBN,UPC/EAN/ISBN,UPC/EAN/ISBN,UPC/EAN/ISBN,UPC/EAN/ISBN,โค๊ด,UPC/EAN/ISBN,UPC/EAN/ISBN
@@ -52,7 +52,7 @@ items_one_or_multiple,product(en) verwijderd,articulo(s),item(s),item(s),產品,
 items_quantity,Stock,Cantidad en Stock,Quantity,Quantité,數量,Количество,จำนวน,Adet,Jumlah
 items_quantity_number,Hoeveelheid moet een cijfer zijn,Cantidad debe ser número,Quantity must be a number,La Quantité doit etre un nombre,數量必需是數值,Количество должно быть число,จำนวนต้องเป็นตัวเลข,Adet sayı olmalıdır,Jumlah harus angka
 items_quantity_required,Hoeveelheid moet ingevuld worden,Cantidad es requerido,Quantity is a required field,La Quantité est requise,數量為必填欄位,Количество обязательное пробелья,จำนวนต้องกรอก,Adet zorunlu alandır,Jumlah wajib diisi
-items_receiving_quantity,,,Receiving quantity,,,,ยอดรับมา,,
+items_receiving_quantity,,,Receiving quantity,,接收數量,,ยอดรับมา,,
 items_reorder_level,Reorder Level,Cantidad Mínima,Reorder Level,Niveau de Réapprovisionnement,補貨點,Минимальный уровень перед заказом,ระดับการสั่งใหม่,Düşük Stok,Batas pesan ulang
 items_reorder_level_number,Reorder level moet een cijfer zijn,Cantidad Mínima debe ser número,Reorder level must be a number,Le Niveaux de Réapprovisionnement doit etre un nombre,補貨點必需是數值,Минимальный уровень перед заказом должно быть число,ระดับการสั่งใหม่ต้องเป็นตัวเลข,Düşük stok sayı olmalıdır,Batas pesan ulang harus angka
 items_reorder_level_required,Reorder level moet ingevuld worden,Cantidad Mínima es requerido,Reorder level is a required field,Le Niveaux de Réapprovisionnement est requis,補貨點為必填欄位,Минимальный уровень перед заказом обязательное пробелья,ระดับการสั่งไหม่ต้องกรอก,Düşük Stok zorunlu alandır,Batas pesan ulang wajib diisi
@@ -61,11 +61,11 @@ items_sales_tax_1,VAT,Impuesto de Ventas 1,Sales Tax,Taxe Vente,營業稅,Нал
 items_sales_tax_2,VAT 2,Impuesto de Ventas 2,Sales Tax 2,Taxe Vente 2,營業稅 2,Налог на покупку 2,ภาษีขาย 2,Satış Vergisi 2,Pajak Penjualan2
 items_search_custom_items,Doorzoek Tags,Buscar en campos personalizados,Search Custom Fields,Rechercher dans les Champs Choisis,Search Custom Fields,Искать в дополнительных товарях,ค้นหาในฟิลด์เสริม,Özel Alanları Ara,Cari secara manual
 items_serialized_items,Optelbare producten,Artículos Serializados,Serialized Items,Items Serialisés,序列化產品,Сериализованные товары,รหัสสินค้า,Seri Numaralı Ürünler,Serial Item
-items_stock_location,,,Stock location,,,,ที่เก็บ,Mağaza Yeri,
+items_stock_location,,,Stock location,,庫存地點,,ที่เก็บ,Mağaza Yeri,
 items_successful_adding,Product succesvol toegevoegd,Has agregado satisfactoriamente un artículo,You have successfully added item,Ajout enregistré,已成功新增產品,Вы успешно добавлен товар,เพิ่มสินค้าสำเร็จ,Ürün ekleme başarılı,Item Barang telah berhasil ditambahkan
 items_successful_bulk_edit,Producten werden succesvol bewaard,Has actualizado satisfactoriamente los artículos seleccionados,You have successfully updated the selected items,Édition réussie,您已成功更新所選產品,Вы успешно обновили выбранных товаров,ปรับแต่งสินค้าสำเร็จ,Seçili ürün düzenlendi,Anda telah berhasil memperbarui item yang dipilih
-items_successful_deleted,Er werd(en),Has borrado satisfactoriamente,You have successfully deleted,Suppréssion réussie,刪除成功,Вы успешно удалили,ลบสินค้าสำเร็จ,Silme başarılı,Item Barang telah berhasil dihapus
-items_successful_updating,Wijzigingen bewaard voor,Has actualizando satisfactoriamente un artículo,You have successfully updated item,Édition enregistrée,已成功更新產品,Вы успешно обновленного товара,ปรับแต่งสินค้าสำเร็จ,Ürün düzenleme başarılı,Item Barang telah berhasil diperbarui
+items_successful_deleted,Er werd(en),Has borrado satisfactoriamente,You have successfully deleted,Suppréssion réussie,您已刪除成功,Вы успешно удалили,ลบสินค้าสำเร็จ,Silme başarılı,Item Barang telah berhasil dihapus
+items_successful_updating,Wijzigingen bewaard voor,Has actualizando satisfactoriamente un artículo,You have successfully updated item,Édition enregistrée,您已成功更新產品,Вы успешно обновленного товара,ปรับแต่งสินค้าสำเร็จ,Ürün düzenleme başarılı,Item Barang telah berhasil diperbarui
 items_supplier,Leverancier,Proveedor,Supplier,Fournisseur,供貨商,Поставщик,ผู้ผลิต,Sağlayıcı,Pemasok
 items_tax_1,VAT,Impuesto 1,Tax 1,Taxe 1,稅額 1,Налог 1,ภาษี 1,Vergi 1,Pajak 1
 items_tax_2,VAT 2,Impuesto 2,Tax 2,Taxe 2,稅額 2,Налог 2,ภาษี 2,Vergi 2,Pajak 2
