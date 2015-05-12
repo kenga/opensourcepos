@@ -37,10 +37,10 @@ if (isset($error_message))
 	<tr>
 	<th style="width:25%;"><?php echo $this->lang->line('sales_item_number'); ?></th>
 	<th style="width:25%;"><?php echo $this->lang->line('items_item'); ?></th>
-	<th style="width:17%;"><?php echo $this->lang->line('common_price'); ?></th>
-	<th style="width:16%;text-align:center;"><?php echo $this->lang->line('sales_quantity'); ?></th>
-	<th style="width:16%;text-align:center;"><?php echo $this->lang->line('sales_discount'); ?></th>
-	<th style="width:17%;text-align:right;"><?php echo $this->lang->line('sales_total'); ?></th>
+	<th style="width:15%;"><?php echo $this->lang->line('common_price'); ?></th>
+	<th style="width:10%;text-align:center;"><?php echo $this->lang->line('sales_quantity'); ?></th>
+	<th style="width:10%;text-align:center;"><?php echo $this->lang->line('sales_discount'); ?></th>
+	<th style="width:15%;text-align:right;"><?php echo $this->lang->line('sales_total'); ?></th>
 	</tr>
 	<?php
 	foreach(array_reverse($cart, true) as $line=>$item)
