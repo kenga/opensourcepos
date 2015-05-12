@@ -1,6 +1,6 @@
 #receipt_wrapper
 {
-	font-family:Arial;
+	font-family:"arial narrow", "微軟正黑體";
 	width:100%;	
 }
 
@@ -39,6 +39,7 @@
 {
 	position:relative;
 	padding:3px;	
+    vertical-align:text-top;
 }
 
 .short_name

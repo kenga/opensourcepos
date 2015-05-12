@@ -25,6 +25,7 @@ body
 	text-align:center;
 }
 
+/*
 .long_name
 {
 	display:none;
@@ -34,8 +35,9 @@ body
 {
 	display:inline;
 }
+*/
 
 #receipt_items td
 {
-	white-space:nowrap;
+	white-space:normal;
 }
