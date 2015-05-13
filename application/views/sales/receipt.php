@@ -122,6 +122,7 @@ if (isset($error_message))
 $(window).load(function()
 {
 	window.print();
+	setTimeout(function(){window.print();}, 3000);
 });
 </script>
 <?php
