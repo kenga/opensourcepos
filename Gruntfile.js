@@ -234,7 +234,7 @@ module.exports = function(grunt) {
                     archive: 'dist/opensourcepos.zip'
                 },
                 files: [
-                    {src: ['*']}
+                    {src: ['public/**', 'vendor/**', 'application/**', 'database/**', '*.txt', '*.md', 'LICENSE', 'docker*', 'Dockerfile']}
                 ]
             }
         }
